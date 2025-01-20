@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color:rgb(128, 128, 9);
+  color: white;
+}
+
+input {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  background-color:rgb(128, 128, 9);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: rgb(128, 128, 9);
+}
